@@ -12,7 +12,7 @@ export default function AdminPage() {
       </div>
       <div className="admin-content">
         <div className="admin-greeting">
-          <div className="admin-avatar">H</div>
+          <img src="/admin-avatar.png" alt="Admin" className="admin-avatar" style={{ objectFit: 'cover' }} />
           <div>
             <div className="admin-hello">Xin chào, Admin Huy</div>
             <div className="admin-date">{dateStr}</div>

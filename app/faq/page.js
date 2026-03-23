@@ -32,7 +32,7 @@ export default function FaqPage() {
         ))}
       </div>
       <div className="faq-map">
-        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2YjhGcT7prdyv6r6hc0hKSR7SQ6TiL6OTERPydaaBBVLU_emN9WX9d1hs_WA3f2Q4qdyRKJpoEGu1oXIjmYqPg-bmnqGa8AqqCU--tbJs2RNcCtmSGKMfYkfwuAVbja60ACuwLsP9RE3Az4GEcwIhox9DioX1bsUbQKMaBjMj5D5F-p8XWOXtdB0EvUDCpSQ2PFBNH3a5lH6U2HGkpBRFSM2ah62YiACD0-mX-Et08R-sG336avBllWWef28oaYOhhwiQphqaSQIS" alt="Map" className="faq-map-img" />
+        <img src="/faq-location.png" alt="Song May Home" className="faq-map-img" />
       </div>
       <div className="faq-contact">
         <p>📧 Email: <a href="mailto:lienhe@songmayhome.com" className="link">lienhe@songmayhome.com</a></p>

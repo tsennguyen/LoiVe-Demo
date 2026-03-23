@@ -14,6 +14,12 @@ export default function Footer() {
       <p>Nhóm 05 — Lớp N11</p>
       <p>GVHD: ThS. Đỗ Quang Đông</p>
       <div className="footer-divider" />
+      <p style={{ fontSize: '0.68rem', marginBottom: '2px' }}><strong>Thành viên nhóm:</strong></p>
+      <p style={{ fontSize: '0.65rem' }}>Nguyễn Việt Thành (Nhóm trưởng)</p>
+      <p style={{ fontSize: '0.65rem' }}>Phan Thanh Trúc Linh · Hồ Đức Tiến</p>
+      <p style={{ fontSize: '0.65rem' }}>Nguyễn Quang Thiện · Phạm Gia Ân</p>
+      <p style={{ fontSize: '0.65rem' }}>Trần Gia Thịnh</p>
+      <div className="footer-divider" />
       <p className="footer-credits">
         Developed by <a href="#">Nguyễn Việt Thành (Tsen Nguyen)</a>
       </p>
