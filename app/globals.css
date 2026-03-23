@@ -211,7 +211,8 @@ body {
 }
 .home-title { font-size: 2.2rem; font-weight: 700; line-height: 1.15; margin-bottom: 10px; letter-spacing: -0.02em; }
 .home-subtitle { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 20px; }
-.home-cta-group { display: flex; gap: 10px; }
+.home-cta-group { display: flex; gap: 10px; flex-wrap: wrap; }
+.home-cta-group .btn { flex: 1; min-width: 0; }
 .home-features { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 10px; }
 .feature-card {
   display: flex; align-items: center; gap: 14px; padding: 16px;
