@@ -13,7 +13,7 @@ export default function HomePage() {
           <div className="home-cta-group">
             <Link href="/onboarding" className="btn btn-primary">
               <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              Bắt đầu 3 phút nhập môn
+              Bắt đầu 3 phút
             </Link>
             <Link href="/schedule" className="btn btn-outline">Xem lịch trình</Link>
           </div>

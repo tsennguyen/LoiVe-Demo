@@ -5,10 +5,10 @@ import Link from 'next/link'
 import BackButton from '@/components/BackButton'
 
 const SESSIONS = [
-  { id: 12, name: 'Đợt 12', date: '11 - 13 Tháng 4, 2025', spots: 8, status: 'open', month: 4, img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC2YjhGcT7prdyv6r6hc0hKSR7SQ6TiL6OTERPydaaBBVLU_emN9WX9d1hs_WA3f2Q4qdyRKJpoEGu1oXIjmYqPg-bmnqGa8AqqCU--tbJs2RNcCtmSGKMfYkfwuAVbja60ACuwLsP9RE3Az4GEcwIhox9DioX1bsUbQKMaBjMj5D5F-p8XWOXtdB0EvUDCpSQ2PFBNH3a5lH6U2HGkpBRFSM2ah62YiACD0-mX-Et08R-sG336avBllWWef28oaYOhhwiQphqaSQIS' },
-  { id: 13, name: 'Đợt 13', date: '25 - 27 Tháng 4, 2025', spots: 0, status: 'full', month: 4, img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBQi4z-AmS1qcpqyVrXRZSaamypR4nIaSN2YDbK92wC4zpwuq7U1nijEs186hKzD4Ffx72l8FhrZQ6kVz_GQNbn25H3xDK9_WMhaDp0q1IJMmIEP4zpZ0XwUnN2872Od7z-tbAmKqh60cBtmdajyOXn6UxUCfyqf4WsVlOnmhVULmJcg-L_2Oec3mjk4IDjUD9-w4RHe3gYcxUo9SGaqSK0KrsAwRCrc-SHzgrOFUI0UMLXS-fUdCNL1TQmHLOKL7ye9QlOaGDhi1Ib' },
-  { id: 14, name: 'Đợt 14', date: '9 - 11 Tháng 5, 2025', spots: 15, status: 'open', month: 5, img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC2YjhGcT7prdyv6r6hc0hKSR7SQ6TiL6OTERPydaaBBVLU_emN9WX9d1hs_WA3f2Q4qdyRKJpoEGu1oXIjmYqPg-bmnqGa8AqqCU--tbJs2RNcCtmSGKMfYkfwuAVbja60ACuwLsP9RE3Az4GEcwIhox9DioX1bsUbQKMaBjMj5D5F-p8XWOXtdB0EvUDCpSQ2PFBNH3a5lH6U2HGkpBRFSM2ah62YiACD0-mX-Et08R-sG336avBllWWef28oaYOhhwiQphqaSQIS' },
-  { id: 15, name: 'Đợt 15', date: '23 - 25 Tháng 5, 2025', spots: 20, status: 'soon', month: 5, img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBQi4z-AmS1qcpqyVrXRZSaamypR4nIaSN2YDbK92wC4zpwuq7U1nijEs186hKzD4Ffx72l8FhrZQ6kVz_GQNbn25H3xDK9_WMhaDp0q1IJMmIEP4zpZ0XwUnN2872Od7z-tbAmKqh60cBtmdajyOXn6UxUCfyqf4WsVlOnmhVULmJcg-L_2Oec3mjk4IDjUD9-w4RHe3gYcxUo9SGaqSK0KrsAwRCrc-SHzgrOFUI0UMLXS-fUdCNL1TQmHLOKL7ye9QlOaGDhi1Ib' },
+  { id: 12, name: 'Đợt 12', date: '11 - 13 Tháng 4, 2025', spots: 8, status: 'open', month: 4, img: '/session-12.png' },
+  { id: 13, name: 'Đợt 13', date: '25 - 27 Tháng 4, 2025', spots: 0, status: 'full', month: 4, img: '/session-13.png' },
+  { id: 14, name: 'Đợt 14', date: '9 - 11 Tháng 5, 2025', spots: 15, status: 'open', month: 5, img: '/session-14.png' },
+  { id: 15, name: 'Đợt 15', date: '23 - 25 Tháng 5, 2025', spots: 20, status: 'soon', month: 5, img: '/session-15.png' },
 ]
 
 const FILTERS = [
