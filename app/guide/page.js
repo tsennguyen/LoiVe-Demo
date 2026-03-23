@@ -9,7 +9,7 @@ export default function GuidePage() {
         <h2 className="screen-title">Hành trình 49h</h2>
       </div>
       <div className="guide-hero">
-        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQi4z-AmS1qcpqyVrXRZSaamypR4nIaSN2YDbK92wC4zpwuq7U1nijEs186hKzD4Ffx72l8FhrZQ6kVz_GQNbn25H3xDK9_WMhaDp0q1IJMmIEP4zpZ0XwUnN2872Od7z-tbAmKqh60cBtmdajyOXn6UxUCfyqf4WsVlOnmhVULmJcg-L_2Oec3mjk4IDjUD9-w4RHe3gYcxUo9SGaqSK0KrsAwRCrc-SHzgrOFUI0UMLXS-fUdCNL1TQmHLOKL7ye9QlOaGDhi1Ib" alt="Song May Home landscape" className="guide-hero-img" />
+        <img src="/guide-day1.png" alt="Song May Home" className="guide-hero-img" />
         <div className="guide-hero-overlay" />
         <div className="guide-hero-text"><p className="guide-subtitle">3 ngày 2 đêm tại Song May Home</p></div>
       </div>
@@ -19,6 +19,7 @@ export default function GuidePage() {
           <div className="timeline-content">
             <div className="day-badge">Ngày 1</div>
             <h3>🚪 Chạm ngõ</h3>
+            <img src="/guide-day1.png" alt="Ngày 1 — Chạm ngõ" className="timeline-img" />
             <ul className="timeline-items">
               <li>14:00 — Check-in &amp; nhận phòng</li>
               <li>15:00 — Trà chào mừng &amp; giới thiệu không gian</li>
@@ -33,6 +34,7 @@ export default function GuidePage() {
           <div className="timeline-content">
             <div className="day-badge">Ngày 2</div>
             <h3>🧘 Tĩnh tại</h3>
+            <img src="/guide-day2.png" alt="Ngày 2 — Tĩnh tại" className="timeline-img" />
             <ul className="timeline-items">
               <li>06:00 — Thiền sáng &amp; yoga nhẹ</li>
               <li>07:30 — Điểm tâm cùng nắng sớm</li>
@@ -49,6 +51,7 @@ export default function GuidePage() {
           <div className="timeline-content">
             <div className="day-badge">Ngày 3</div>
             <h3>🌅 Lối về</h3>
+            <img src="/guide-day3.png" alt="Ngày 3 — Lối về" className="timeline-img" />
             <ul className="timeline-items">
               <li>06:00 — Thiền bình minh</li>
               <li>07:30 — Bữa sáng chia tay</li>
